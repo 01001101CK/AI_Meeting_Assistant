@@ -1,7 +1,7 @@
-import Image from 'next/image'
+import SummaryList from "@/components/SummaryList";
 
 export default function Home() {
   return (
-   <p>Hello World</p>
+    <SummaryList />
   )
 }
