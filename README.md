@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<img src="https://github.com/01001101CK/ai_meeting_assistant/assets/112290188/d3da34a6-f8e6-41b8-a131-c78b1567468c" width="100" height="100">
+
+# Welcome to AI Meeting Assistant
+## Reimagining Meeting Productivity for Busy Professionals:
+
+"In the fast-paced world of modern work, professionals are inundated with meetings and a constant influx of information. Juggling schedules, attending meetings, and managing the deluge of notes and action items can be overwhelming. What if there was an innovative solution to empower busy individuals to regain control over their time and productivity?
+
+Our challenge is to develop an AI-powered Meeting Note Assistant, seamlessly integrating the Hugging Face Meeting_Summary API with a robust MongoDB database. This cutting-edge solution is designed to automatically capture, summarize, and intelligently organize meeting notes. It relieves professionals of the tedious task of note-taking and ensures easy access to organized summaries at their fingertips.
+
+The ultimate goal is to liberate professionals from the burden of manual note-taking, enabling them to prioritize their core tasks, collaborate more effectively, and make the most of their valuable time. With this revolutionary Meeting Note Assistant, we aim to transform how busy people manage their meetings, making their workdays more efficient, productive, and stress-free."
 
 ## Getting Started
 
@@ -16,21 +26,17 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Configure Your Environment Variables
+- use the Example.env file 
+- Add the following variables in .env file with your own. You can get these from [MongoDB](https://cloud.mongodb.com/) and [Hugging Face](https://huggingface.co/).
+``TOKEN= ;
+MONGODB_URI=``
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How does it work?
 
-## Learn More
+https://github.com/01001101CK/ai_meeting_assistant/assets/112290188/45635569-608c-45d9-bd3c-dae7d6bb06fc
 
-To learn more about Next.js, take a look at the following resources:
+## Technology:
+This project was built utilizing a combination of Next.js, React, Tailwind CSS, huggingface/inference, Node, and MongoDB.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
